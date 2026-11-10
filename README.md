@@ -15,7 +15,10 @@ Este proyecto es una aplicación web con una estructura desacoplada diseñada ex
 
 🔗 **[Prueba la aplicación en vivo aquí](https://inventario-app-frontend-8yoi.onrender.com)**
 
+### 💡 **Nota de Arquitectura Comercial:** El código fuente original de esta aplicación de inventario está resguardado en un repositorio privado por seguridad y confidencialidad. Para este portafolio público, configuré un script automatizado en el ciclo *Post-Build* para inyectar ofuscación matemática avanzada y protección *anti-tampering* en el producto empaquetado, demostrando de forma práctica cómo se despliega un software comercial en el mundo real protegiendo la propiedad intelectual sin afectar la experiencia de usuario.
+
 ### 🚀 Estado del Proyecto: 70% (Fase de Estabilización)
+
 Actualmente, el sistema cuenta con la estructura base de componentes de inventario, sincronización de tareas en tiempo real y vistas asíncronas optimizadas. Se encuentra en desarrollo el 30% restante enfocado en módulos avanzados de analítica visual, reportes de stock históricos y filtros complejos de búsqueda.
 
 ### 🛠️ Tecnologías Utilizadas
@@ -32,6 +35,12 @@ Actualmente, el sistema cuenta con la estructura base de componentes de inventar
 ### ⚙️ Arquitectura y Seguridad Local
 * **Variables de Entorno:** Configuración gestionada y aislada mediante los archivos nativos de Angular (`src/environments/`) para mitigar la exposición de credenciales o URLs de servidores de datos en producción.
 * **Control de Versiones:** Repositorio estructurado rigurosamente bajo Git, garantizando la exclusión estricta de carpetas de dependencias (`node_modules`) y archivos de caché mediante un `.gitignore` optimizado para Angular.
+
+### 🛡️ Blindaje y Protección del Código Fuente (Portafolio Seguro)
+* **Compilación Con Ofuscación Avanzada:** Para mitigar ataques de ingeniería inversa, el código de producción se compila utilizando un script personalizado en el ciclo *Post-Build* sobre **Esbuild**. 
+* **Estructura Criptográfica:** Toda la lógica de componentes y librerías reactivas dentro del bundle principal (`main.js`) es transformada a un laberinto indescifrable de arreglos hexadecimales, codificación en Base64 e inyección de código muerto (*Dead Code Injection*).
+* **Mecanismo Anti-Depuración (Anti-Tampering):** El software implementa una protección estricta en tiempo de ejecución (`debugProtection`). Si se intentan abrir las herramientas de desarrollador del navegador (DevTools) para inspeccionar los procesos lógicos, el script activa de manera inmediata un congelamiento de pila a través de bucles condicionales infinitos, neutralizando la inspección maliciosa sin afectar la experiencia de usuario nativa.
+
 
 ### 🔒 Arquitectura y Repositorio del Backend
 Por razones de seguridad, confidencialidad y protección de propiedad intelectual, el código fuente del servidor se encuentra alojado en un **repositorio privado**. El acceso está restringido exclusivamente al autor del proyecto y evaluadores externos autorizados.
@@ -56,6 +65,8 @@ This project is a web application with a decoupled structure designed exclusivel
 
 🔗 **[Test the live application here](https://inventario-app-frontend-8yoi.onrender.com)**
 
+### 💡 **Commercial Architecture Note:** The original source code for this inventory application is securely hosted in a private repository for security and confidentiality reasons. For this public portfolio, I configured an automated *Post-Build* script to inject advanced mathematical obfuscation and anti-tampering defenses into the final bundle, practically demonstrating how commercial software is deployed in the real world to protect intellectual property while preserving seamless user performance.
+
 ### 🚀 Project Status: 70% (Stabilization Phase)
 Currently, the system has the base structure of inventory components, real-time task synchronization, and optimized asynchronous views. The remaining 30% is in development, focusing on advanced visual analytics modules, historical stock reports, and complex search filters.
 
@@ -73,6 +84,12 @@ Currently, the system has the base structure of inventory components, real-time 
 ### ⚙️ Architecture and Local Security
 * **Environment Variables:** Managed and isolated configuration using Angular's native files (`src/environments/`) to mitigate the exposure of credentials or data server URLs in production.
 * **Version Control:** Repository rigorously structured under Git, ensuring the strict exclusion of dependency folders (`node_modules`) and cache files via an optimized `.gitignore` for Angular.
+
+### 🛡️ Source Code Hardening and Protection (Secure Portfolio)
+* **Advanced Obfuscation Build:** To mitigate reverse engineering attempts, the production code is compiled leveraging a customized *Post-Build* script on top of **Esbuild**.
+* **Cryptographic Architecture:** All component logic and reactive flows within the core bundle (`main.js`) are refactored into an indecipherable maze of hexadecimal naming structures, Base64 encryption strings, and Dead Code Injection.
+* **Anti-Tampering & Anti-Debugging Mechanism:** The client-side software enforces a strict runtime defense checkpoint (`debugProtection`). If browser Developer Tools (DevTools) are attached to inspect core operational loops, the bundle instantly triggers an internal runtime stack freeze using infinite debugger traps, defusing profiling attempts while preserving standard user performance.
+
 
 ### 🔒 Backend Architecture and Repository
 For security, confidentiality, and intellectual property protection reasons, the server source code is hosted in a **private repository**. Access is strictly restricted to the project author and authorized external evaluators.
