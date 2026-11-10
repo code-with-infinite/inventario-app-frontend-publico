@@ -1,0 +1,25 @@
+/* Visualización del modal de notificación */
+.modal-notificacion-overlay {
+    position: fixed !important;
+    inset: 0 !important;
+    z-index: 99999 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 16px;
+    background: rgba(2, 6, 23, 0.82);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.modal-notificacion-panel {
+    position: relative;
+    width: 100%;
+    max-width: 448px;
+    padding: 24px;
+    color: #f8fafc;
+    background: #0f172a;
+    border: 1px solid #1e293b;
+    border-radius: 16px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.45);
+}
